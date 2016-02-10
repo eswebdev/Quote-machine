@@ -1,0 +1,78 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  background: teal;
+}
+
+#container {
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  width: 50%;
+}
+
+#container h1 {
+  text-align: center;
+  color: #600000;
+}
+
+#quoteContainer {
+  width: 75%;
+  padding: 30px;
+  margin: 30px auto;
+  text-align: center;
+  height: 70px;
+}
+
+#buttonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+#quoteButton {
+  width: 200px;
+  margin-top: 10px;
+  border: 2px solid black;
+  color: #600000;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#quoteButton:hover {
+  cursor: pointer;
+  background: #A00000;
+  color: black;
+}
+
+#quoteButton:active {
+  cursor: pointer;
+}
+
+#quoteButton {
+  display: inline-block;
+}
+
+#quoteSad {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+#tweetBox {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and(max-width:760px) {
+  #quoteButton,
+  #addNew {
+    display: block;
+  }
+}
